@@ -1,22 +1,61 @@
-This Python script was developed collaboratively by a group of three. It creates a graphical user interface (GUI) application using the `tkinter` library. The application allows users to encrypt and decrypt messages using a Caesar cipher. Here's a summary:
+A GUI-Based Ceaser Cipher Application  
 
-Features:
-1. **Input Fields**:
-   - Allows users to input a secret message and a cipher key.
-   - Displays encrypted and decrypted messages in designated fields.
-   - Provides fields to show both encrypted and decrypted messages side by side.
+**Description**  
+Application designed to demonstrate the encryption and decryption of messages using a Caesar cipher. Built with Python and the `tkinter` library, this project provides a visual and interactive way for users to encrypt a secrete message. Users can encrypt messages, decrypt them, generate random keys, and display both encrypted and decrypted outputs side by side.  
 
-2. **Buttons**:
-   - **Encrypt**: Encrypts the input message using the specified key.
-   - **Decrypt**: Displays the original input message as a "decryption."
-   - **Random Key**: Generates a random integer key for encryption.
-   - **Show Both**: Displays both encrypted and decrypted messages side by side.
-   - **Self-Destruct**: Closes the application.
+**Purpose and Objectives**  
+- To provide a hands-on demonstration of Caesar cipher encryption.  
+- To offer an intuitive and aesthetically pleasing GUI for cryptography enthusiasts.  
+- To practice and showcase collaborative development in Python GUI programming.  
 
-3. **Encryption Logic**:
-   - Implements the Caesar cipher by rotating letters in the alphabet based on the provided key. Utilizes `deque` for efficient letter shifting.
+---
 
-4. **Styling**:
-   - Styled with a red and black theme and uses the "Papyrus" font for aesthetic appeal.
+**Installation Instructions**  
 
-This project highlights collaboration and teamwork while demonstrating skills in GUI development, encryption techniques, and event-driven programming in Python.
+1. **Clone the Repository**:  
+   Copy the repository.
+
+2. **Install Python** (if not already installed):  
+   Download and install Python from [python.org] (https://www.python.org/downloads/). Ensure the version is 3.6 or higher.  
+
+3. **Install Required Libraries**:  
+   The only library required is `tkinter`, which comes pre-installed with Python.  
+
+4. **Run the Code**:  
+   Run the code. 
+
+---
+
+**Usage Instructions**  
+
+1. **Launch the Application**:  
+Once running...  
+
+2. **Encrypt a Message**:  
+   - Enter your secret message in the first text box.  
+   - Provide an integer key in the key field or click the **Random** button to generate one.  
+   - Click the "Click to Display Secret Message" button to see the encrypted message.  
+
+3. **Decrypt a Message**:  
+   - Enter the encrypted message or original message in the input box.  
+   - Click "Click to Display Deciphered Secret Message" to see the decrypted text.  
+
+4. **Display Both Messages**:  
+   - Click the "Click to Display Both Messages Side by Side" button to view encrypted and decrypted messages together.  
+
+
+---
+
+## **Features and Technology Stack**  
+
+### **Features**:  
+- Caesar cipher implementation for encryption and decryption.  
+- Random key generation for one-time decipherable messages.  
+- Dual message display for comparison.  
+- Aesthetic GUI with customized font and colors.  
+
+### **Technology Stack**:  
+- **Language**: Python  
+- **Library**: tkinter  
+
+---
